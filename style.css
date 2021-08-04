@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+}
+img{
+    width: 220px;
+    z-index: 2;
+    transition: all 0.75s ease-out;
+}
+.container{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    transform-style: preserve-3d;
+    min-height: 80vh;
+    width: 20rem;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0 0 50px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    padding: 0 1.5rem;
+}
+.sneakers{
+    min-height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    width: 10rem;
+    height: 10rem;
+    background: linear-gradient(
+        to right,
+        rgba(245,70,6,0.75),
+        rgba(8,83,156,0.75)
+    );
+    position: absolute;
+    border-radius: 50%;
+    z-index: 1;
+}
+h1{
+    text-align: center;
+    transition: all 0.75s ease-out;
+}
+h3{
+    color: #585858;
+    padding: 0.5rem 0;
+    line-height: 1.5rem;
+    font-weight: lighter;
+}
+.buttons{
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.buttons button{
+    width: 4rem;
+    height: 2rem;
+    border: none;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    color:#585858;
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+.buttons button:active{
+    background: linear-gradient(
+        to right,
+        rgba(245,70,6,0.75),
+        rgba(8,83,156,0.75)
+    );
+}
+.purchase{
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.purchase button{
+    background: linear-gradient(
+        to right,
+        rgba(245,70,6,0.75),
+        rgba(8,83,156,0.75)
+    );
+    height: 2rem;
+    width: 100%;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+button{
+    cursor: pointer;
+    border-radius: 5px;
+}
+
