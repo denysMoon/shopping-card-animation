@@ -32,6 +32,7 @@ img{
     padding: 0 1.5rem;
 }
 .sneakers{
+    margin: 30px 0 0 0;
     min-height: 35vh;
     display: flex;
     justify-content: center;
@@ -60,10 +61,12 @@ h3{
     font-weight: lighter;
 }
 .buttons{
-    margin-top: 0.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.purchase, .buttons, h3{
+    padding: 20px 0 0 0;
 }
 .buttons button{
     width: 4rem;
